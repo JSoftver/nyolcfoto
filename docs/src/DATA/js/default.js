@@ -45,42 +45,42 @@ const opn = {
         // Nature
         getId("texts").innerHTML += "<h1 id='catNature'>Természetfotók</h1>";
         for (let i = 0; i < vdata.nature.length; i++) {            
-            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.nature[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.nature[i].name}</span><br><span>&Lscr; Leírás: ${vdata.nature[i].desc}</span><br><span>&check; Dátum: ${vdata.nature[i].date}</span><br><span>&#10063; Album: ${vdata.nature[i].album}</span><br><br></div><br><br>`;
+            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.nature[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.nature[i].name}</span><br><span>&Lscr; Leírás: ${vdata.nature[i].desc}</span><br><span>&check; Dátum: ${vdata.nature[i].date}</span><br><span>&#10063; Album: ${vdata.nature[i].album}</span><br><br></div><br><br>`;
         }
 
         // Street
         getId("texts").innerHTML += "<br><br>";
         getId("texts").innerHTML += "<h1 id='catStreet'>Street fotók</h1>";
         for (let i = 0; i < vdata.street.length; i++) {            
-            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.street[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.street[i].name}</span><br><span>&Lscr; Leírás: ${vdata.street[i].desc}</span><br><span>&check; Dátum: ${vdata.street[i].date}</span><br><span>&#10063; Album: ${vdata.street[i].album}</span><br><br></div><br>`;
+            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.street[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.street[i].name}</span><br><span>&Lscr; Leírás: ${vdata.street[i].desc}</span><br><span>&check; Dátum: ${vdata.street[i].date}</span><br><span>&#10063; Album: ${vdata.street[i].album}</span><br><br></div><br>`;
         }
 
         // Object
         getId("texts").innerHTML += "<br><br>";
         getId("texts").innerHTML += "<h1 id='catObject'>Tárgyak</h1>";
         for (let i = 0; i < vdata.object.length; i++) {            
-            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.object[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.object[i].name}</span><br><span>&Lscr; Leírás: ${vdata.object[i].desc}</span><br><span>&check; Dátum: ${vdata.object[i].date}</span><br><span>&#10063; Album: ${vdata.object[i].album}</span><br><br></div><br>`;
+            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.object[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.object[i].name}</span><br><span>&Lscr; Leírás: ${vdata.object[i].desc}</span><br><span>&check; Dátum: ${vdata.object[i].date}</span><br><span>&#10063; Album: ${vdata.object[i].album}</span><br><br></div><br>`;
         }
 
         // Portrai
         getId("texts").innerHTML += "<br><br>";
         getId("texts").innerHTML += "<h1 id='catPortrai'>Portrék</h1>";
         for (let i = 0; i < vdata.portrai.length; i++) {            
-            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.portrai[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.portrai[i].name}</span><br><span>&Lscr; Leírás: ${vdata.portrai[i].desc}</span><br><span>&check; Dátum: ${vdata.portrai[i].date}</span><br><span>&#10063; Album: ${vdata.portrai[i].album}</span><br><br></div><br>`;
+            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.portrai[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.portrai[i].name}</span><br><span>&Lscr; Leírás: ${vdata.portrai[i].desc}</span><br><span>&check; Dátum: ${vdata.portrai[i].date}</span><br><span>&#10063; Album: ${vdata.portrai[i].album}</span><br><br></div><br>`;
         }
 
         // Macro
         getId("texts").innerHTML += "<br><br>";
         getId("texts").innerHTML += "<h1 id='catMacro'>Makrók</h1>";
         for (let i = 0; i < vdata.macro.length; i++) {            
-            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.macro[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.macro[i].name}</span><br><span>&Lscr; Leírás: ${vdata.macro[i].desc}</span><br><span>&check; Dátum: ${vdata.macro[i].date}</span><br><span>&#10063; Album: ${vdata.macro[i].album}</span><br><br></div><br>`;
+            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.macro[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.macro[i].name}</span><br><span>&Lscr; Leírás: ${vdata.macro[i].desc}</span><br><span>&check; Dátum: ${vdata.macro[i].date}</span><br><span>&#10063; Album: ${vdata.macro[i].album}</span><br><br></div><br>`;
         }
 
         // Phenomenon
         getId("texts").innerHTML += "<br><br>";
         getId("texts").innerHTML += "<h1 id='catPhenomenon'>Jelenségek</h1>";
         for (let i = 0; i < vdata.phenomenon.length; i++) {            
-            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.phenomenon[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.phenomenon[i].name}</span><br><span>&Lscr; Leírás: ${vdata.phenomenon[i].desc}</span><br><span>&check; Dátum: ${vdata.phenomenon[i].date}</span><br><span>&#10063; Album: ${vdata.phenomenon[i].album}</span><br><br></div><br>`;
+            getId("texts").innerHTML += `<img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.phenomenon[i].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.phenomenon[i].name}</span><br><span>&Lscr; Leírás: ${vdata.phenomenon[i].desc}</span><br><span>&check; Dátum: ${vdata.phenomenon[i].date}</span><br><span>&#10063; Album: ${vdata.phenomenon[i].album}</span><br><br></div><br>`;
         }
     },
 
@@ -123,7 +123,7 @@ const opn = {
                     imagesInAlbum.push(vdata.phenomenon[i]);
                 }
             }
-            getId("texts").innerHTML += `<div style="background-image: url(src/DATA/_images/${imagesInAlbum[0].originalName}.jpg);" onclick="opn.album(${JSON.stringify(imagesInAlbum)})" class="album"><h1>${vdata.albums[albumI]}</h1><br></div><br><br>`;
+            getId("texts").innerHTML += `<div style="background-image: url(src/DATA/stored_images/${imagesInAlbum[0].originalName}.jpg);" onclick="opn.album(${JSON.stringify(imagesInAlbum)})" class="album"><h1>${vdata.albums[albumI]}</h1><br></div><br><br>`;
         }
     },
 
@@ -213,22 +213,22 @@ getId("newestUploads").innerHTML = `
     <h1>Legújabb feltöltések</h1><br>
 
     <h2>Makró</h2>
-    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.macro[vdata.macro.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.macro[vdata.macro.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.macro[vdata.macro.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.macro[vdata.macro.length - 1].date}</span><br><span>&#10063; Album: ${vdata.macro[vdata.macro.length - 1].album}</span><br><br></div><br><br>
+    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.macro[vdata.macro.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.macro[vdata.macro.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.macro[vdata.macro.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.macro[vdata.macro.length - 1].date}</span><br><span>&#10063; Album: ${vdata.macro[vdata.macro.length - 1].album}</span><br><br></div><br><br>
     
     <h2>Street Fotó</h2>
-    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.street[vdata.street.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.street[vdata.street.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.street[vdata.street.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.street[vdata.street.length - 1].date}</span><br><span>&#10063; Album: ${vdata.street[vdata.street.length - 1].album}</span><br><br></div><br><br>
+    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.street[vdata.street.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.street[vdata.street.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.street[vdata.street.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.street[vdata.street.length - 1].date}</span><br><span>&#10063; Album: ${vdata.street[vdata.street.length - 1].album}</span><br><br></div><br><br>
     
     <h2>Portré</h2>
-    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.portrai[vdata.portrai.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.portrai[vdata.portrai.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.portrai[vdata.portrai.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.portrai[vdata.portrai.length - 1].date}</span><br><span>&#10063; Album: ${vdata.portrai[vdata.portrai.length - 1].album}</span><br><br></div><br><br>
+    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.portrai[vdata.portrai.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.portrai[vdata.portrai.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.portrai[vdata.portrai.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.portrai[vdata.portrai.length - 1].date}</span><br><span>&#10063; Album: ${vdata.portrai[vdata.portrai.length - 1].album}</span><br><br></div><br><br>
     
     <h2>Természet</h2>
-    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.nature[vdata.nature.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.nature[vdata.nature.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.nature[vdata.nature.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.nature[vdata.nature.length - 1].date}</span><br><span>&#10063; Album: ${vdata.nature[vdata.nature.length - 1].album}</span><br><br></div><br><br>
+    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.nature[vdata.nature.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>&commat; Név: ${vdata.nature[vdata.nature.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.nature[vdata.nature.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.nature[vdata.nature.length - 1].date}</span><br><span>&#10063; Album: ${vdata.nature[vdata.nature.length - 1].album}</span><br><br></div><br><br>
     
     <h2>Tárgy</h2>
-    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.object[vdata.object.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>Név: ${vdata.object[vdata.object.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.object[vdata.object.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.object[vdata.object.length - 1].date}</span><br><span>&#10063; Album: ${vdata.object[vdata.object.length - 1].album}</span><br><br></div><br><br>
+    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.object[vdata.object.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>Név: ${vdata.object[vdata.object.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.object[vdata.object.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.object[vdata.object.length - 1].date}</span><br><span>&#10063; Album: ${vdata.object[vdata.object.length - 1].album}</span><br><br></div><br><br>
     
     <h2>Jelenségek</h2>
-    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/_images/${vdata.phenomenon[vdata.phenomenon.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>Név: ${vdata.phenomenon[vdata.phenomenon.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.phenomenon[vdata.phenomenon.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.phenomenon[vdata.phenomenon.length - 1].date}</span><br><span>&#10063; Album: ${vdata.phenomenon[vdata.phenomenon.length - 1].album}</span><br><br></div><br><br>
+    <img onclick="window.open(this.src, '_blank')" class='img' src="src/DATA/stored_images/${vdata.phenomenon[vdata.phenomenon.length - 1].originalName}.jpg"><br><div class="img-text"><br><span>Név: ${vdata.phenomenon[vdata.phenomenon.length - 1].name}</span><br><span>&Lscr; Leírás: ${vdata.phenomenon[vdata.phenomenon.length - 1].desc}</span><br><span>&check; Dátum: ${vdata.phenomenon[vdata.phenomenon.length - 1].date}</span><br><span>&#10063; Album: ${vdata.phenomenon[vdata.phenomenon.length - 1].album}</span><br><br></div><br><br>
 `;
 
 // Newest Blogs
