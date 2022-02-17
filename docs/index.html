@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>8 Fotó</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/icons/icon.png" type="image/x-icon">
 </head>
-<body>
-    <h1>Sajnáljuk, de az oldal még nincs kész. Az oldal elkészüléséről a Facebook oldalunkon kaphat értesítést.</h1>
+<body id="bg">
+  <div id="texts">
+      <div id="newestUploads">
+        <h1>Legújabb feltöltések</h1><br>
+        <h2>Makró</h2>
+        <h2>Street Fotó</h2>
+        <h2>Portré</h2>
+        <h2>Természet</h2>
+        <h2>Tárgy</h2>
+      </div><br>
+      <div id="newestBlogs">
+        <h1>Legújabb blogok</h1>
+      </div>
+  </div>
+  
+  <!-- NAVBAR-TOP -->
+    <h1 style="position: absolute; left: 50%; top: 150px; transform: translate(-50%, -50%); font-size: 48px;">8 Fotó</h1>
+    <div style="position: absolute; left: 50%; top: 230px; transform: translate(-50%, -50%);">
+        <em>"Miért ez lett a neve?</em><br>
+        <em style="margin-left: 90px;">Mert...  "</em>
+    </div>
+    <div id="navbar-top">
+        <a href="index.html" style="margin-left: 30px;">
+            <span style="color: green;">8 </span><span>FOTÓ</span>
+        </a>
+        <a href="index.html" style="margin-left: 120px;" class="selected" id="home">FŐOLDAL</a>
+        <a onclick="opn.categories(this)">KATEGÓRIÁK</a>
+        <a onclick="opn.albums(this)">ALBUMOK</a>
+        <a onclick="opn.blog(this)">BLOG</a>
+        <a onclick="opn.feedback(this)">Visszajelzés</a>
+
+        <div style="background-image: url('src/icons/facebook.jpg'); background-repeat: no-repeat; background-position: center; background-size: 30px; width: 30px; height: 30px; position: absolute; top: 10px; right: 100px; cursor: pointer; margin-top: 17px;" onclick="window.open('https://www.facebook.com/nyolcfoto', '_blank');"></div>
+        <div style="background-image: url('src/icons/youtube.png'); background-repeat: no-repeat; background-position: center; background-size: 30px; width: 30px; height: 30px; position: absolute; top: 10px; right: 40px; cursor: pointer; margin-top: 17px;" onclick="window.open('https://www.youtube.com/channel/UCmnAACnGn8Hj8zBnHWmlUqw', '_blank');"></div>
+        <div style="background-image: url('src/icons/group.png'); background-repeat: no-repeat; background-position: center; background-size: 30px; width: 30px; height: 30px; position: absolute; top: 10px; right: 150px; cursor: pointer; margin-top: 17px;" onclick="window.open('https://www.facebook.com/groups/nyolcfoto', '_blank');"></div>
+
+        <div id="btt" class="hidden" onclick="window.scroll({top: 0, left: 0, behavior: 'smooth'});"><div>&#8679;</div></div>
+    </div><br><br>
 </body>
+<script src="src/DATA/js/database.js"></script>
+<script src="src/DATA/js/default.js"></script>
 </html>

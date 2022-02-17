@@ -1,0 +1,265 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bg {
+    background-image: url("src/images/bg1.jpg");
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: -200px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
+a {
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar-top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.25s;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: none;
+}
+
+#navbar-top a {
+    font-size: 24px;
+    cursor: pointer;
+    float: left;
+    margin-left: 40px;
+}
+
+#navbar-top .selected {
+    color: lawngreen;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+}
+
+#navbar-top .selected:hover {
+    color: greenyellow;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+}
+
+#navbar-top * {
+    color: black;
+    margin-top: 27px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+#navbar-top *:hover {
+    text-decoration: underline;
+    transition-duration: 0.2s;
+}
+
+.center {
+    text-align: center;
+}
+
+#texts div h1 {
+    margin-left: 10px;
+}
+
+#texts div * {
+    margin-left: 25px;
+}
+
+.img {
+    width: 200px;
+    height: auto;
+    margin-bottom: -12px;
+    margin-left: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.img:hover {
+    opacity: 0.95;
+    transition-duration: 0.2s;
+}
+
+.img-text {
+    background-color: rgba(146, 146, 146, 0.582);
+    width: max-content;
+    height: max-content;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.img-text span {
+    margin-right: 20px;
+    white-space: pre-line;
+}
+
+.album {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+    float: left;
+    margin-left: 20px;
+}
+
+.album:hover {
+    border: 2px solid grey;
+    background-size: 170px auto;
+    opacity: 0.95;
+    transition-duration: 0.2s;
+}
+
+.album:hover h1 {
+    border-bottom: 1px solid grey;
+    color: grey;
+    transition-duration: 0.2s;
+}
+
+.album h1 {
+    position: relative;
+    top: -18px;
+    left: -3px;
+    border-bottom: 1px solid black;
+    transition-duration: 0.2s;
+    font-size: 28px;
+}
+
+#cats a {
+    cursor: pointer;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+}
+
+#cats a:hover {
+    opacity: 0.9;
+    transition-duration: 0.2s;
+}
+
+#btt {
+    color: transparent;
+    background-color: transparent;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    animation-duration: 0.5s;
+    user-select: none;
+    text-decoration: none;
+}
+
+#btt:hover {
+    width: 60px;
+    height: 60px;
+    opacity: 0.9;
+    transition-duration: 0.2s;
+}
+
+#btt:hover div {
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+#btt div {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+@keyframes popupBtt {
+    from {
+        color: transparent;
+        background-color: transparent;
+    }
+
+    to {
+        color: black;
+        background-color: gray;
+    }
+}
+
+@keyframes popdownBtt {
+    from {
+        color: black;
+        background-color: gray;
+    }
+
+    to {
+        color: transparent;
+        background-color: transparent;
+    }
+}
+  
+.hidden {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(65, 65, 65, 0.726); 
+}
+
+.blogBox {
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+}
+
+.blogBox a {
+    color: lawngreen;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.blogBox a:hover {
+    color: limegreen;
+    transition-duration: 0.2s;
+}
+
+.readMore {
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.readMore:hover {
+    color: grey;
+    transition-duration: 0.2s;
+}
+
+.blogBox .blogDate {
+    color: grey;
+    font-style: italic;
+}
