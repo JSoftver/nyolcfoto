@@ -160,12 +160,52 @@ const opn = {
         window.location.href = "#texts";
         getId("texts").innerHTML = `
         <br><br>
-        <h1>Visszajelzés</h1>
-        <hr><br>
+        <h1>Visszajelzés írása</h1>
         <span>Kérjük, írja le ide a nevét illetve a visszajelzést irántunk!</span><br><br>
         <textarea spellcheck='false' id="feedbackData" style="width: 300px; height: 100px;"></textarea><br><br>
         <button onclick="sendEmail('nyolcfoto@gmail.com', 'Feedback - Visszajelzés', document.getElementById('feedbackData').value)";>Küldés</button><br><br>
-        <em>Köszönjük a visszajelzést! Legyen szép napja! ;)</em>
+        <em>Köszönjük a visszajelzést! Legyen szép napja! ;)</em><br><br>
+        <h1>Facebook csoport leírása/szabályzata:</h1>
+        <span>
+            Ez a csoport a 8 Fotó oldalnak a csoportja. Itt mindenki feltöltheti a saját fotóit, és építő jellegű kritikát írhat másoknak. További információk a csoportban és az oldalon.
+
+            Tippeket adhatsz és tippeket kérhetsz másoktól.
+
+            Feltölthetsz fotókat, és az is lehet, hogy fel kerül a weboldalra, természetesen a te neveddel alatta. De még mielőtt feltöltenénk, nyilvánvalóan kérünk tőled engedélyt, hogy feltölthessük. További információ a SZABÁLYZAT-nál olvasható.
+
+            Linkek:
+            <ul>
+                <li><a style="cursor: pointer; color: lawngreen; text-decoration: underline;" href="https://www.facebook.com/nyolcfoto/">Facebook oldal</li>
+                <li><a style="cursor: pointer; color: lawngreen; text-decoration: underline;" href="https://www.youtube.com/channel/UCmnAACnGn8Hj8zBnHWmlUqw">YouTube csatorna</li>
+                <li><a style="cursor: pointer; color: lawngreen; text-decoration: underline;" href="https://jsoftver.github.io/nyolcfoto">Weboldal</a></li>
+            </ul>
+            
+            <br><br>
+            <span style="color: blueviolet;">SZABÁLYZAT:</span>
+            <br><br>
+            <span style="color: red;">Amit tilos:</span>
+            <ul>
+                <li>Tilos a nem saját képek feltöltése (a mostani modern technikának hála ez nagyon egyszerűen kideríthető : ) ), ez alól kivétel az, hogyha odaírod a nevét, hogy ki készítette, de ilyet MAXIMUM 3-at tölthetsz fel egy nap. A szabály megszegése esetén némíthatunk, vagy ki tehetünk téged pár napra pihenni. : )</li>
+                <li>Szigorúan tilos a káromkodás, ha ilyen van, akkor úgyis jelez nekem a Facebook, meg a többi moderátornak/adminnak, és vagy én vagy ők, kitesznek a csoportból.</li>
+                <li>Saját terméket, eladó cuccokat hirdetni TILOS! Ez nem egy hirdetőoldal, arra ott van a Marketplace, meg a többi hirdetőoldal! ; ) (Tiltás)</li>
+            </ul>
+            
+            <span style="color: orange;">Amit szabad, de korláttal:</span>
+            <ul>
+                <li>Vicces képeket szabad feltenni, de kérlek, hogy ne szórjátok tele a csoportot ilyenekkel, ugyanis nem pont erre a célra lett tervezve! ; )</li> 
+                <li>Saját weboldal hirdetése, de KIZÁRÓLAG HÉTFŐN, és csakis 1-szer!</li>
+                <li>Videókat lehet feltenni, ha az kapcsolódik az oldalhoz, de amint meglátok egy gameplay videót, már raklak is ki!</li>
+            </ul>
+            
+            <span style="color: lightgreen;">Amit jó lenne, ha megtennél nekünk, illetve bármikor megtehetsz:</span>
+            <ul>
+                <li>Bemutatkozás egy bejegyzésnél, (mióta fotózol, milyen stílusú képeket csinálsz/szeretsz csinálni, milyen géped van stb...)</li>
+                <li>Kérhetsz segítséget bárkitől, hisz erre a célra lett tervezve a csoport!</li>
+            </ul>
+            <br><br>
+            <span>És mi a helyzet a rangokkal?</span><br>
+            <em>Igen, a rangok... nos rangot úgy lehet szerezni, ha folyamatos közreműködője vagy a csoportnak, mindik segítesz, folyamatosan aktív vagy, persze nem kell 0-24 ben aktívnak lenned, nem egy éjjel-nappali kisbolt vagy, aki segítséget árul, de jó lenne, amikor segítséget kérnek tőled, vagy mindenkitől, akkor már ott is lennél, és már írnál is neki. Valamint ha reklámozod az oldalunkat, megosztod a bejegyzéseket. Viszont a rang felelőséggel jár! Ne csak azért segíts másokon, hogy rangot szerezzél, illetve nem is biztos hogy kapni fogsz!</em>
+        </span>
         `;
     }
 }

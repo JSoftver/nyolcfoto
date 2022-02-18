@@ -135,7 +135,7 @@ let bdata = {
             name: `Hogyan csináltam a "Deadpool lights" képemet?`,
             data: `
             <img src="src/DATA/stored_images/11.jpg" alt="Hiba a kép betöltése során" style="height: 200px; width: auto; float: left; margin-right: 30px; margin-bottom: 10px; cursor: pointer;" onclick="window.open(this.src, '_blank')">
-            <span>Ha kíváncsi vagy rá, hogy hogyan csináltam a Deadpool lights képemet, vagy te is szeretnél ilyen képet csinálni, akkor ezt mindenképp olvasd el! Vagy nézd meg YouTube-on: <a onclick="window.open('LINK', '_blank')">LINK</a>!</span><br>
+            <span>Ha kíváncsi vagy rá, hogy hogyan csináltam a Deadpool lights képemet, vagy te is szeretnél ilyen képet csinálni, akkor ezt mindenképp olvasd el! Vagy nézd meg YouTube-on: <a onclick="window.open('https://youtu.be/qDvnkC7N54k', '_blank')">https://youtu.be/qDvnkC7N54k</a>!</span><br>
             <h3><strong>Hogy mik is kellenek hozzá?</strong></h3>
             <ul>
                 <liAlufólia</li>
@@ -146,8 +146,10 @@ let bdata = {
                 <li>Valamint ha nincsen egyenlő magasságban a tárgy és a kamera, akkor egy kis emelvény, például egy könyv a kamerának vagy a tárgynak. (Az én esetemben a tárgynak használtam egy könyvet alufóliával lefedve)</li>
             </ul>
             <h3><strong>Ezek után?</strong></h3>
-            <span>Ezek után tépjünk le egy kis négyzet alakú alufóliadarabot, amit gyűrjünk össze, majd finomat hajtogassuk ki, nehogy beletépjünk. Majd az alufóliadarabot ragasszuk fel valahova, vagy döntsük neki valaminek, az a lényeg, hogy az lesz majd a háttér.</span>
-            <span></span>
+            <span>Ezek után tépjünk le egy kis négyzet alakú alufóliadarabot, amit gyűrjünk össze, majd finoman hajtogassuk ki, nehogy beletépjünk. Majd az alufóliadarabot ragasszuk fel valahova, vagy döntsük neki valaminek, az a lényeg, hogy az lesz majd a háttér.</span><br>
+            <span>Majd helyezzük a tárgyat a háttér elé. Itt jön képbe az emelvény, az én esetemben egy alufóliával befedett könyv, amire rátettem a tárgyat - a figurát - és ha neked van nagy lapos tükröd, akkor a könyv helyett mindenképpen használd azt, és arra tedd a tárgyat, ugyanis sokkal jobb lesz tőle a kép.</span><br>
+            <span>Majd játsszatok a fénnyel! Higyjétek el nekem, ha egy nagyon kivilágított szobában vagy, akkor is kell a plusz fény! Próbálgassátok, hogy hogyan néz ki a legjobban a kép, a fény irányában!</span><br>
+            <span>Aztán ha úgy gondolod, hogy minden készen van, minden jól be van állítva, akkor csinálhatod is a képeket!</span>
             `,
             date: "Nincs dátum hozzáadva",
         },
