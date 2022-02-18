@@ -111,6 +111,8 @@ let vdata = {
         'Karantén fotók',
         ''
     ],
+
+    device: "",
 }
 
 // Blog data
@@ -128,6 +130,26 @@ let bdata = {
             </ul>
             `,
             date: "2022. 02. 17.",
+        },
+        {
+            name: `Hogyan csináltam a "Deadpool lights" képemet?`,
+            data: `
+            <img src="src/DATA/stored_images/11.jpg" alt="Hiba a kép betöltése során" style="height: 200px; width: auto; float: left; margin-right: 30px; margin-bottom: 10px; cursor: pointer;" onclick="window.open(this.src, '_blank')">
+            <span>Ha kíváncsi vagy rá, hogy hogyan csináltam a Deadpool lights képemet, vagy te is szeretnél ilyen képet csinálni, akkor ezt mindenképp olvasd el! Vagy nézd meg YouTube-on: <a onclick="window.open('LINK', '_blank')">LINK</a>!</span><br>
+            <h3><strong>Hogy mik is kellenek hozzá?</strong></h3>
+            <ul>
+                <liAlufólia</li>
+                <li>Egy tárgy, amit az előtérbe szeretnénk helyezni (mivel ez egy "élettelen kép", ezért én egy játékfigurás pendrive-ot választottam)</li>
+                <li>Zseblámpa, vagy egy telefonnak a vakuja.</li>
+                <li>A jobb hatás érdekében jó ha van nálad tükör. (Én nem találtam, így az enyém nem lett olyan szép, de a tiéd attól még lehet szebb!)</li>
+                <li>Egy kamera, ami elengedhetetlen a képhez, de ha esetleg újabb telefonod van, akkor jó lesz az is!</li>
+                <li>Valamint ha nincsen egyenlő magasságban a tárgy és a kamera, akkor egy kis emelvény, például egy könyv a kamerának vagy a tárgynak. (Az én esetemben a tárgynak használtam egy könyvet alufóliával lefedve)</li>
+            </ul>
+            <h3><strong>Ezek után?</strong></h3>
+            <span>Ezek után tépjünk le egy kis négyzet alakú alufóliadarabot, amit gyűrjünk össze, majd finomat hajtogassuk ki, nehogy beletépjünk. Majd az alufóliadarabot ragasszuk fel valahova, vagy döntsük neki valaminek, az a lényeg, hogy az lesz majd a háttér.</span>
+            <span></span>
+            `,
+            date: "Nincs dátum hozzáadva",
         },
     ],
 }

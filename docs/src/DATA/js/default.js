@@ -171,7 +171,7 @@ const opn = {
 }
 
 function readMore(box, i) {
-    document.getElementById('blogData' + i).innerText = bdata.blogs[i].data; 
+    document.getElementById('blogData' + i).innerHTML = bdata.blogs[i].data; 
     box.classList.add('hidden');
 }
 
@@ -262,4 +262,11 @@ if (bdata.blogs.length < 3) {
             </div>`;
         }
     }
+}
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("style-link").innerHTML = `<link rel="stylesheet" href="src/DATA/css/style-phone.css">`;
+    vdata.device = "phone";
+} else {
+    vdata.device = "pc";
 }
