@@ -78,7 +78,7 @@ html {
 }
 
 .img {
-    width: 200px;
+    width: 70px;
     height: auto;
     margin-bottom: -12px;
     margin-left: 20px;
@@ -103,15 +103,16 @@ html {
 .img-text span {
     margin-right: 20px;
     white-space: pre-line;
+    font-size: 9px;
 }
 
 .album {
-    width: 200px;
-    height: 300px;
+    width: 70px;
+    height: 170px;
     border: 2px solid black;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 150px auto;
+    background-size: 75px auto;
     cursor: pointer;
     border-radius: 12px;
     transition-duration: 0.2s;
@@ -138,7 +139,7 @@ html {
     left: -3px;
     border-bottom: 1px solid black;
     transition-duration: 0.2s;
-    font-size: 28px;
+    font-size: 12px;
 }
 
 #cats a {
@@ -235,6 +236,7 @@ html {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-radius: 12px;
+    font-size: 12px;
 }
 
 .blogBox a {
@@ -270,7 +272,7 @@ html {
     left: 50%; 
     top: 60px; 
     transform: translate(-50%, -50%); 
-    font-size: 24px;
+    font-size: 10px;
 }
 
 .ememLogo {
@@ -278,7 +280,7 @@ html {
     left: 50%; 
     top: 130px; 
     transform: translate(-50%, -50%);
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .home {
@@ -293,7 +295,7 @@ html {
     width: 15px; 
     height: 15px; 
     position: absolute; 
-    top: 10px; 
+    top: 30px; 
     left: 10px;
     cursor: pointer; 
     margin-top: 17px;
@@ -307,7 +309,7 @@ html {
     width: 15px; 
     height: 15px; 
     position: absolute; 
-    top: 30px; 
+    top: 50px; 
     left: 10px;
     cursor: pointer; 
     margin-top: 17px;
@@ -321,7 +323,7 @@ html {
     width: 15px; 
     height: 15px; 
     position: absolute; 
-    top: 50px; 
+    top: 70px; 
     left: 10px;
     cursor: pointer; 
     margin-top: 17px;
