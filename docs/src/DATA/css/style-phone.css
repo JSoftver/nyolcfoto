@@ -98,12 +98,13 @@ html {
     height: max-content;
     border-radius: 12px;
     margin-bottom: 20px;
+    font-size: 8px;
 }
 
 .img-text span {
     margin-right: 20px;
     white-space: pre-line;
-    font-size: 9px;
+    font-size: 5px;
 }
 
 .album {

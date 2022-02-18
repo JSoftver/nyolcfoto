@@ -165,7 +165,7 @@ const opn = {
         <textarea spellcheck='false' id="feedbackData" style="width: 300px; height: 100px;"></textarea><br><br>
         <button onclick="sendEmail('nyolcfoto@gmail.com', 'Feedback - Visszajelzés', document.getElementById('feedbackData').value)";>Küldés</button><br><br>
         <em>Köszönjük a visszajelzést! Legyen szép napja! ;)</em><br><br>
-        <h1>Facebook csoport leírása/szabályzata:</h1>
+        <h1>Facebook csoport leírása & szabályzata:</h1>
         <span>
             Ez a csoport a 8 Fotó oldalnak a csoportja. Itt mindenki feltöltheti a saját fotóit, és építő jellegű kritikát írhat másoknak. További információk a csoportban és az oldalon.
 
@@ -307,6 +307,7 @@ if (bdata.blogs.length < 3) {
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("style-link").innerHTML = `<link rel="stylesheet" href="src/DATA/css/style-phone.css">`;
     vdata.device = "phone";
+    alert("FIGYELEM!!! AZ OLDAL TELEFONOS VERZIÓJA MÉG NINCSEN TELJESEN KÉSZ!");
 } else {
     vdata.device = "pc";
 }
