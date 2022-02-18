@@ -102,6 +102,107 @@ let vdata = {
             originalName: "10",
             album: "Záridőőő",
         },
+        {
+            name: "Fák és szép felhők portré mód",
+            desc: `Ez a Wow albumomnak egy gyönyörű darabja!`,
+            date: "2022. 02. 18.",
+            originalName: "12",
+            album: "Wow",
+        },
+        {
+            name: "Fák és szép felhők táj mód",
+            desc: `Ez a Wow albumomnak egy gyönyörű darabja!`,
+            date: "2022. 02. 18.",
+            originalName: "13",
+            album: "Wow",
+        },
+        {
+            name: "Fa, háztető és szép felhők táj mód",
+            desc: `Ez a Wow albumomnak egy gyönyörű darabja!`,
+            date: "2022. 02. 18.",
+            originalName: "14",
+            album: "Wow",
+        },
+        {
+            name: "Fa és szép felhők táj mód",
+            desc: `Ez a Wow albumomnak egy gyönyörű darabja!`,
+            date: "2022. 02. 18.",
+            originalName: "15",
+            album: "Wow",
+        },
+        {
+            name: "Fenyőfa és szép felhők táj mód",
+            desc: `Ez a Wow albumomnak egy gyönyörű darabja!`,
+            date: "2022. 02. 18.",
+            originalName: "16",
+            album: "Wow",
+        },
+        {
+            name: "Fa és szép ég táj mód",
+            desc: `Ez az egyik kedvencem a Wow albumból!
+            (Táj mód számítógép felhasználóknak)`,
+            date: "2022. 02. 18.",
+            originalName: "17",
+            album: "Wow",
+        },
+        {
+            name: "Fa és szép ég portré mód",
+            desc: `Ez az egyik kedvencem a Wow albumból!
+            (Portré mód telefon felhasználóknak)`,
+            date: "2022. 02. 18.",
+            originalName: "18",
+            album: "Wow",
+        },
+        {
+            name: "Fa és szép ég portré mód 2",
+            desc: `Ez a nemtudomhányadik kedvencem a Wow albumból!`,
+            date: "2022. 02. 18.",
+            originalName: "19",
+            album: "Wow",
+        },
+        {
+            name: "Faágak és szép ég portré mód",
+            desc: `Ez a nemtudomhányadik kedvencem a Wow albumból!`,
+            date: "2022. 02. 18.",
+            originalName: "20",
+            album: "Wow",
+        },
+        {
+            name: "Fa és szürke ég portré mód",
+            desc: `Ez egy kicsit szomorkásabb hangulatú, de attól
+            még szeretem!`,
+            date: "2022. 02. 18.",
+            originalName: "21",
+            album: "Wow",
+        },
+        {
+            name: "Fa és kékes szürkés ég portré mód",
+            desc: `Ez egy kékesebb verziója az előzőnek.`,
+            date: "2022. 02. 18.",
+            originalName: "22",
+            album: "Wow",
+        },
+        {
+            name: "Faágak mögötte homályos falusi ház portré mód",
+            desc: `Ez szép.`,
+            date: "2022. 02. 18.",
+            originalName: "23",
+            album: "Wow",
+        },
+        {
+            name: "Homályos faágak mögötte éles falusi ház portré mód",
+            desc: `Előzőnek a fordítottja.`,
+            date: "2022. 02. 18.",
+            originalName: "24",
+            album: "Wow",
+        },
+        {
+            name: "Templom és fekete madarak portré mód",
+            desc: `Ez is szép.`,
+            date: "2022. 02. 18.",
+            originalName: "25",
+            album: "Wow",
+        },
     ],
     
     albums: [
@@ -109,6 +210,7 @@ let vdata = {
         'Street Start Pack 1',
         'Záridőőő',
         'Karantén fotók',
+        'Wow',
         ''
     ],
 
